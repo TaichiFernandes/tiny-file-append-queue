@@ -1,0 +1,17 @@
+{
+  "name": "tiny-file-append-queue",
+  "version": "0.1.0",
+  "description": "Prevents interleaved writes when multiple callers append lines to the same file.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {}
+}
